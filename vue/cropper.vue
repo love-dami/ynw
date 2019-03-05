@@ -23,7 +23,7 @@
 /**
  *<yn-crop :visible.sync="shwoCrop" @crop="onCrop" :layout="[700,500]" :size="[160,160]" />
  */
-import Cropper from "cropperjs";
+import Cropper from "cropper.js";
 import "cropperjs/dist/cropper.css";
 export default {
   props: {
